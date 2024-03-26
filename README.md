@@ -1,4 +1,4 @@
-# graph-data-structure-in-javascript
+# Graph Data Structure
 
 A **graph** is a data structure that consists of a set of **vertices** (also known as **nodes** or **points**) and a set of **edges** (also known as **links** or **lines**), where each **edge** connects a pair of **vertices**. Graphs are used to represent *relationships between objects*. The objects are typically represented by vertices, and the relationships between them are represented by edges.
 
