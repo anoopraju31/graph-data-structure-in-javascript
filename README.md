@@ -23,3 +23,16 @@ Graphs can be implemented using various data structures, including adjacency mat
 1. **Adjacency Matrix**: A two-dimensional array (or matrix) where each cell M[i][j] represents the presence or absence of an edge between vertex i and vertex j.
 2. **Adjacency List**: A collection of lists or arrays where each vertex has a list of its adjacent vertices. This is a more space-efficient representation, especially for sparse graphs.
 3. **Adjacency Map (or Dictionary)**: A mapping of each vertex to a collection (such as a list or set) of its adjacent vertices. This allows for efficient lookup of neighbors.
+
+### Operations in graph
+Operations on graphs typically involve manipulating the structure, vertices, or edges of the graph. These operations are fundamental to graph algorithms and applications. Here are some common operations performed on graphs:
+1. **Add Vertex**: Insert a new vertex into the graph.
+2. **Remove Vertex**: Delete a vertex from the graph along with its incident edges.
+3. **Add Edge**: Create a new edge between two existing vertices.
+4. **Remove Edge**: Delete an edge between two existing vertices.
+5. **Get Neighbors**: Retrieve the adjacent vertices of a given vertex.
+6. **isEmpty**: Checks whether a graph is empty or not, i.e., it has no vertices or edges.
+7. **size**: Returns the number of vertices (or edges) in the graph, indicating its size.
+8. **merge**: Combines two graphs by merging their vertices and edges into a single graph. This operation can involve resolving conflicts or maintaining consistency between the merged graphs.
+9. **Depth-First Search (DFS)**: Explores a graph level by level, visiting all neighbors of a vertex before moving to the next level. It finds the shortest path from the starting vertex to every other reachable vertex.
+10. **Breadth-First Search (BFS)**: Explores a graph by going as deep as possible along each branch before backtracking. It traverses along paths, exploring one branch fully before moving to the next.
